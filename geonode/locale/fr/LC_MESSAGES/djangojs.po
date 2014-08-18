@@ -19,35 +19,35 @@ msgstr ""
 
 #: static/geonode/script/GeoExplorer.js:68 static/geonode/script/GeoNode.js:33
 msgid "Add user..."
-msgstr ""
+msgstr "Ajouter un ultilsateur..."
 
 #: static/geonode/script/GeoNode.js:36
 msgid "Who can view and download this data?"
-msgstr ""
+msgstr "Qui peut voir et modifier ces données ?"
 
 #: static/geonode/script/GeoNode.js:36
 msgid "Anyone"
-msgstr ""
+msgstr "Tout le monde"
 
 #: static/geonode/script/GeoNode.js:36 static/geonode/script/GeoNode.js.c:38
 msgid "Any registered user"
-msgstr ""
+msgstr "Tout utilisateur connecté"
 
 #: static/geonode/script/GeoNode.js:36
 msgid "Only users who can edit"
-msgstr ""
+msgstr "Seulement les utilisateurs qui ont la permission"
 
 #: static/geonode/script/GeoNode.js:37
 msgid "Who can edit this data?"
-msgstr ""
+msgstr "Qui peux modifier ces données ?"
 
 #: static/geonode/script/GeoNode.js:38
 msgid "Only the following users or groups:"
-msgstr ""
+msgstr "Seulement les utilisateurs ou groupes suivant :"
 
 #: static/geonode/script/GeoNode.js:39
 msgid "Who can manage and edit this data?"
-msgstr ""
+msgstr "Qui peut gérer et editer ces données ?"
 
 #: templates/lang.js:9 templates/lang.js.c:12
 msgid "Add Layers"
@@ -234,7 +234,9 @@ msgstr "Petit"
 msgid ""
 "Error contacting server.\n"
 " Please check the url and try again."
-msgstr "Erreur à la connexion au serveur.\n Merci de vérifier l'url et réessayer."
+msgstr ""
+"Erreur à la connexion au serveur.\n"
+" Merci de vérifier l'url et réessayer."
 
 #: templates/lang.js:59
 msgid "Layer Properties"
@@ -260,7 +262,9 @@ msgstr "Basculer sur la vue Google Earth 3D"
 msgid ""
 "The map that you are trying to load does not exist.  Creating a new map "
 "instead."
-msgstr "Cette carte que vous essayez de charger n'existe pas. Créez une nouvelle carte à la place."
+msgstr ""
+"Cette carte que vous essayez de charger n'existe pas."
+" Créez une nouvelle carte à la place."
 
 #: templates/lang.js:65
 msgid "Unknown Map"
@@ -324,7 +328,7 @@ msgstr "Nom"
 
 #: templates/lang.js:98
 msgid "Queryable"
-msgstr ""
+msgstr "Interrogeable"
 
 #: templates/lang.js:105
 msgid "No background"
@@ -334,7 +338,9 @@ msgstr "Pas de fond"
 msgid ""
 "Your map is ready to be published to the web!  Simply copy the following "
 "HTML to embed the map in your website:"
-msgstr "Votre carte est prête à être publiée sur internet ! Copiez simplement le code HTML suivant pour afficher la carte sur votre site :"
+msgstr ""
+"Votre carte est prête à être publiée sur internet ! Copiez simplement"
+" le code HTML suivant pour afficher la carte sur votre site :"
 
 #: templates/lang.js:126 templates/lang.js.c:192
 msgid "Abstract:"

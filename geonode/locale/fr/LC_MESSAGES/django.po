@@ -2621,7 +2621,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Ete vous dure de vouloir supprimer %(map_title)s?\n"
+"        Êtes-vous sûr de vouloir supprimer %(map_title)s?\n"
 "    "
 
 #: maps/templates/maps/map_view.html:5
@@ -3446,7 +3446,7 @@ msgstr "Recherche de métadonnées via CSW :"
 
 #: templates/developer.html:73
 msgid "Cached tiles via WMTS:"
-msgstr "Carreaux en cache via WMTS :"
+msgstr "Tiles en cache via WMTS :"
 
 #: templates/help.html:4
 msgid "User Guide"
@@ -4215,7 +4215,7 @@ msgstr "heure"
 
 #: upload/templates/upload/layer_upload_time.html:178
 msgid "minute"
-msgstr ""
+msgstr "minute"
 
 #: upload/templates/upload/layer_upload_time.html:179
 msgid "second in minute"

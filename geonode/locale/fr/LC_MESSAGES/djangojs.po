@@ -47,7 +47,7 @@ msgstr "Seulement les utilisateurs ou les groupes suivant :"
 
 #: static/geonode/script/GeoNode.js:39
 msgid "Who can manage and edit this data?"
-msgstr "Qui peut gérer et editer ces données ?"
+msgstr "Qui peut gérer et éditer ces données ?"
 
 #: templates/lang.js:9 templates/lang.js.c:12
 msgid "Add Layers"
@@ -235,8 +235,8 @@ msgid ""
 "Error contacting server.\n"
 " Please check the url and try again."
 msgstr ""
-"Erreur à la connexion au serveur.\n"
-" Merci de vérifier l'url et réessayer."
+"Erreur lors de la connexion au serveur.\n"
+" Merci de vérifier l'url et de réessayer."
 
 #: templates/lang.js:59
 msgid "Layer Properties"
@@ -484,11 +484,11 @@ msgstr "Couches Sélectionnées"
 
 #: templates/lang.js:208
 msgid "No Layers Selected"
-msgstr "Aucune Couche Sélectionnée"
+msgstr "Aucune couche sélectionnée"
 
 #: templates/lang.js:210
 msgid "Clear Selected"
-msgstr "Réinitialiser la Sélection"
+msgstr "Réinitialiser la sélection"
 
 #: templates/lang.js:211
 msgid "Clear All"

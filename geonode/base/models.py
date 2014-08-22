@@ -650,6 +650,9 @@ class LinkManager(models.Manager):
     def geogit(self):
         return self.get_queryset().filter(name__icontains='geogit')
 
+    def ows(self):
+        return self.get_queryset().filter(link_type__in=['OGC:WMS', 'OGC:WFS', 'OGC:WCS'])
+
 
 class Link(models.Model):
     """Auxiliary model for storing links for resources.
@@ -662,6 +665,9 @@ class Link(models.Model):
         * data: For WFS and WCS links that allow access to raw data
         * image: For WMS and TMS links
         * metadata: For CSW links
+        * OGC:WMS: for WMS service links
+        * OGC:WFS: for WFS service links
+        * OGC:WCS: for WCS service links
     """
     resource = models.ForeignKey(ResourceBase)
     extension = models.CharField(max_length=255, help_text=_('For example "kml"'))
@@ -671,6 +677,9 @@ class Link(models.Model):
     url = models.TextField(max_length=1000)
 
     objects = LinkManager()
+
+    def __str__(self):
+        return '%s link' % self.link_type
 
 
 def resourcebase_post_delete(instance):
